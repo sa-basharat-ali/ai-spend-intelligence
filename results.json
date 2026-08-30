@@ -1,0 +1,551 @@
+{
+  "purity": 1.0,
+  "shape_accuracy": 0.9333333333333333,
+  "forecast": [
+    {
+      "as_of_day": 3,
+      "n": 40,
+      "runrate_mape": 0.5451576256013848,
+      "empirical_mape": 0.5754410611864422,
+      "coverage_80": 0.8,
+      "half_width": 1.3915710081137382
+    },
+    {
+      "as_of_day": 5,
+      "n": 42,
+      "runrate_mape": 0.4047740560308539,
+      "empirical_mape": 0.4139474960185954,
+      "coverage_80": 0.7857142857142857,
+      "half_width": 0.9967568724017745
+    },
+    {
+      "as_of_day": 8,
+      "n": 42,
+      "runrate_mape": 0.2560335735722475,
+      "empirical_mape": 0.2863173391617917,
+      "coverage_80": 0.7619047619047619,
+      "half_width": 0.7244051651137693
+    },
+    {
+      "as_of_day": 12,
+      "n": 42,
+      "runrate_mape": 0.17195218789551986,
+      "empirical_mape": 0.16909295072087918,
+      "coverage_80": 0.7142857142857143,
+      "half_width": 0.3353535815304267
+    },
+    {
+      "as_of_day": 20,
+      "n": 42,
+      "runrate_mape": 0.10717811596841476,
+      "empirical_mape": 0.11536061234547092,
+      "coverage_80": 0.8095238095238095,
+      "half_width": 0.23441941616032475
+    },
+    {
+      "as_of_day": 25,
+      "n": 42,
+      "runrate_mape": 0.06536307611962328,
+      "empirical_mape": 0.07326774916976042,
+      "coverage_80": 0.7619047619047619,
+      "half_width": 0.1818613207657389
+    }
+  ],
+  "control_gap": [
+    {
+      "vendor": "Amazon Web Services",
+      "archetype": "usage",
+      "charge_days": 25.333333333333332,
+      "cv": 0.8248233325369108,
+      "distinct_ratio": 1.0,
+      "n_txn": 337,
+      "total": 416581.48,
+      "monthly": [
+        49042.86,
+        88947.27,
+        59462.46,
+        72113.56,
+        73505.38,
+        73509.95
+      ],
+      "mom_growth": 0.03533032481143339,
+      "cardholders": 1,
+      "teams": 1,
+      "annual_run_rate": 882119.3999999999,
+      "exposure": 529271.6399999999,
+      "reasons": [
+        "metered"
+      ]
+    },
+    {
+      "vendor": "ANTHROPIC",
+      "archetype": "usage",
+      "charge_days": 15.333333333333334,
+      "cv": 0.9565201091034689,
+      "distinct_ratio": 1.0,
+      "n_txn": 121,
+      "total": 76381.3,
+      "monthly": [
+        6924.88,
+        10763.64,
+        7021.62,
+        21445.09,
+        12968.039999999999,
+        17258.03
+      ],
+      "mom_growth": 0.2787657677895816,
+      "cardholders": 8,
+      "teams": 2,
+      "annual_run_rate": 207096.36,
+      "exposure": 269225.268,
+      "reasons": [
+        "metered",
+        "8 cardholders",
+        "+28%/mo"
+      ],
+      "_in6": 75463.54978846233,
+      "_added": 58205.519788462334
+    },
+    {
+      "vendor": "OpenAI",
+      "archetype": "usage",
+      "charge_days": 14.5,
+      "cv": 0.8735925003078195,
+      "distinct_ratio": 1.0,
+      "n_txn": 119,
+      "total": 77079.57,
+      "monthly": [
+        5527.9800000000005,
+        8889.94,
+        15748.91,
+        14848.949999999999,
+        11716.52,
+        20347.27
+      ],
+      "mom_growth": 0.15856492002566536,
+      "cardholders": 3,
+      "teams": 1,
+      "annual_run_rate": 244167.24,
+      "exposure": 244167.24,
+      "reasons": [
+        "metered",
+        "+16%/mo"
+      ],
+      "_in6": 49207.17068410872,
+      "_added": 28859.90068410872
+    },
+    {
+      "vendor": "Google Cloud",
+      "archetype": "usage",
+      "charge_days": 25.333333333333332,
+      "cv": 0.909128441542813,
+      "distinct_ratio": 0.9969788519637462,
+      "n_txn": 331,
+      "total": 140291.84,
+      "monthly": [
+        11789.0,
+        15374.9,
+        35846.69,
+        26164.96,
+        29382.66,
+        21733.63
+      ],
+      "mom_growth": 0.070418313288801,
+      "cardholders": 1,
+      "teams": 1,
+      "annual_run_rate": 260803.56,
+      "exposure": 156482.136,
+      "reasons": [
+        "metered"
+      ]
+    },
+    {
+      "vendor": "Datadog",
+      "archetype": "usage",
+      "charge_days": 25.833333333333332,
+      "cv": 0.7885561847741233,
+      "distinct_ratio": 1.0,
+      "n_txn": 306,
+      "total": 77636.44,
+      "monthly": [
+        9221.119999999999,
+        11712.53,
+        12639.88,
+        11462.78,
+        12836.04,
+        19764.09
+      ],
+      "mom_growth": 0.09486033684456885,
+      "cardholders": 1,
+      "teams": 1,
+      "annual_run_rate": 237169.08000000002,
+      "exposure": 142301.448,
+      "reasons": [
+        "metered"
+      ]
+    },
+    {
+      "vendor": "REPLIT 1415",
+      "archetype": "usage",
+      "charge_days": 17.333333333333332,
+      "cv": 1.6825422545320494,
+      "distinct_ratio": 0.9859154929577465,
+      "n_txn": 142,
+      "total": 8905.78,
+      "monthly": [
+        979.98,
+        1394.72,
+        1422.53,
+        1185.3,
+        1908.41,
+        2014.84
+      ],
+      "mom_growth": 0.10393520059520855,
+      "cardholders": 7,
+      "teams": 3,
+      "annual_run_rate": 24178.079999999998,
+      "exposure": 21760.271999999997,
+      "reasons": [
+        "metered",
+        "7 cardholders"
+      ],
+      "_in6": 3646.7169383887576,
+      "_added": 1631.8769383887577
+    },
+    {
+      "vendor": "ELEVEN LABS",
+      "archetype": "usage",
+      "charge_days": 15,
+      "cv": 1.20662888194382,
+      "distinct_ratio": 0.9919354838709677,
+      "n_txn": 124,
+      "total": 6795.94,
+      "monthly": [
+        508.26,
+        469.08,
+        1051.12,
+        1538.73,
+        1905.19,
+        1323.56
+      ],
+      "mom_growth": 0.3295585807642196,
+      "cardholders": 20,
+      "teams": 5,
+      "annual_run_rate": 15882.72,
+      "exposure": 20647.536,
+      "reasons": [
+        "metered",
+        "20 cardholders",
+        "+33%/mo"
+      ],
+      "_in6": 7311.197184578381,
+      "_added": 5987.6371845783815
+    },
+    {
+      "vendor": "PERPLEXITY AI",
+      "archetype": "seat",
+      "charge_days": 1,
+      "cv": 0.289874846687372,
+      "distinct_ratio": 0.15789473684210525,
+      "n_txn": 114,
+      "total": 6390.09,
+      "monthly": [
+        741.01,
+        742.35,
+        929.24,
+        1130.47,
+        1219.79,
+        1627.23
+      ],
+      "mom_growth": 0.18133913397432533,
+      "cardholders": 19,
+      "teams": 6,
+      "annual_run_rate": 19526.760000000002,
+      "exposure": 13668.732000000002,
+      "reasons": [
+        "19 cardholders",
+        "+18%/mo"
+      ],
+      "_in6": 4422.791724529511,
+      "_added": 2795.561724529511
+    },
+    {
+      "vendor": "Slack",
+      "archetype": "seat",
+      "charge_days": 1,
+      "cv": 0.10042414788609402,
+      "distinct_ratio": 0.20512820512820512,
+      "n_txn": 78,
+      "total": 26800.86,
+      "monthly": [
+        4684.63,
+        4242.02,
+        4943.55,
+        4993.01,
+        4202.49,
+        3735.16
+      ],
+      "mom_growth": -0.023109267252486854,
+      "cardholders": 13,
+      "teams": 6,
+      "annual_run_rate": 44821.92,
+      "exposure": 13446.576,
+      "reasons": [
+        "13 cardholders"
+      ]
+    },
+    {
+      "vendor": "GitHub",
+      "archetype": "seat",
+      "charge_days": 1,
+      "cv": 0.08346894308779604,
+      "distinct_ratio": 0.2361111111111111,
+      "n_txn": 72,
+      "total": 17920.57,
+      "monthly": [
+        3400.0,
+        2912.0,
+        2704.0,
+        2699.66,
+        3041.62,
+        3163.29
+      ],
+      "mom_growth": -0.004136802640832715,
+      "cardholders": 12,
+      "teams": 3,
+      "annual_run_rate": 37959.479999999996,
+      "exposure": 11387.844,
+      "reasons": [
+        "12 cardholders"
+      ]
+    },
+    {
+      "vendor": "Zoom",
+      "archetype": "seat",
+      "charge_days": 1,
+      "cv": 0.15217718205053643,
+      "distinct_ratio": 0.07142857142857142,
+      "n_txn": 42,
+      "total": 14250.0,
+      "monthly": [
+        2700.0,
+        3000.0,
+        2100.0,
+        2250.0,
+        2250.0,
+        1950.0
+      ],
+      "mom_growth": -0.06138309754602078,
+      "cardholders": 7,
+      "teams": 4,
+      "annual_run_rate": 23400.0,
+      "exposure": 7020.0,
+      "reasons": [
+        "7 cardholders"
+      ]
+    },
+    {
+      "vendor": "Linear",
+      "archetype": "seat",
+      "charge_days": 1,
+      "cv": 0.073015411445461,
+      "distinct_ratio": 0.3148148148148148,
+      "n_txn": 54,
+      "total": 10229.56,
+      "monthly": [
+        1477.8,
+        1762.42,
+        1732.81,
+        1699.8,
+        1663.2600000000002,
+        1893.47
+      ],
+      "mom_growth": 0.01865242344235507,
+      "cardholders": 9,
+      "teams": 5,
+      "annual_run_rate": 22721.64,
+      "exposure": 6816.491999999999,
+      "reasons": [
+        "9 cardholders"
+      ]
+    },
+    {
+      "vendor": "ANYSPHERE CURSOR FRANCISCOCA",
+      "archetype": "seat",
+      "charge_days": 1,
+      "cv": 0.10657287803680769,
+      "distinct_ratio": 0.4444444444444444,
+      "n_txn": 18,
+      "total": 17004.09,
+      "monthly": [
+        3166.67,
+        2812.0,
+        2340.9900000000002,
+        2598.5099999999998,
+        2884.32,
+        3201.6000000000004
+      ],
+      "mom_growth": 0.014406243457159018,
+      "cardholders": 3,
+      "teams": 1,
+      "annual_run_rate": 38419.200000000004,
+      "exposure": 0.0,
+      "reasons": []
+    },
+    {
+      "vendor": "Notion",
+      "archetype": "seat",
+      "charge_days": 1,
+      "cv": 0.15453159204720912,
+      "distinct_ratio": 0.5,
+      "n_txn": 18,
+      "total": 11336.49,
+      "monthly": [
+        2400.0,
+        1530.0,
+        1560.6,
+        1910.16,
+        1948.38,
+        1987.3500000000001
+      ],
+      "mom_growth": 0.02112038078828271,
+      "cardholders": 3,
+      "teams": 2,
+      "annual_run_rate": 23848.2,
+      "exposure": 0.0,
+      "reasons": []
+    },
+    {
+      "vendor": "Figma",
+      "archetype": "seat",
+      "charge_days": 1,
+      "cv": 0.3153371929683424,
+      "distinct_ratio": 0.5416666666666666,
+      "n_txn": 24,
+      "total": 17456.47,
+      "monthly": [
+        3250.0,
+        1657.5,
+        2028.78,
+        4138.719999999999,
+        3869.69,
+        2511.7799999999997
+      ],
+      "mom_growth": 0.14894433751893188,
+      "cardholders": 4,
+      "teams": 3,
+      "annual_run_rate": 30141.359999999997,
+      "exposure": 0.0,
+      "reasons": [],
+      "_in6": 5777.973326330246,
+      "_added": 3266.1933263302462
+    }
+  ],
+  "vendors": {
+    "ANYSPHERE CURSOR FRANCISCOCA": {
+      "archetype": "seat",
+      "total": 17004.09,
+      "cardholders": 3,
+      "teams": 1,
+      "mom_growth": 0.014406243457159018
+    },
+    "Amazon Web Services": {
+      "archetype": "usage",
+      "total": 416581.48,
+      "cardholders": 1,
+      "teams": 1,
+      "mom_growth": 0.03533032481143339
+    },
+    "Datadog": {
+      "archetype": "usage",
+      "total": 77636.44,
+      "cardholders": 1,
+      "teams": 1,
+      "mom_growth": 0.09486033684456885
+    },
+    "Slack": {
+      "archetype": "seat",
+      "total": 26800.86,
+      "cardholders": 13,
+      "teams": 6,
+      "mom_growth": -0.023109267252486854
+    },
+    "Notion": {
+      "archetype": "seat",
+      "total": 11336.49,
+      "cardholders": 3,
+      "teams": 2,
+      "mom_growth": 0.02112038078828271
+    },
+    "ANTHROPIC": {
+      "archetype": "usage",
+      "total": 76381.3,
+      "cardholders": 8,
+      "teams": 2,
+      "mom_growth": 0.2787657677895816
+    },
+    "OpenAI": {
+      "archetype": "usage",
+      "total": 77079.57,
+      "cardholders": 3,
+      "teams": 1,
+      "mom_growth": 0.15856492002566536
+    },
+    "Google Cloud": {
+      "archetype": "usage",
+      "total": 140291.84,
+      "cardholders": 1,
+      "teams": 1,
+      "mom_growth": 0.070418313288801
+    },
+    "Linear": {
+      "archetype": "seat",
+      "total": 10229.56,
+      "cardholders": 9,
+      "teams": 5,
+      "mom_growth": 0.01865242344235507
+    },
+    "Zoom": {
+      "archetype": "seat",
+      "total": 14250.0,
+      "cardholders": 7,
+      "teams": 4,
+      "mom_growth": -0.06138309754602078
+    },
+    "REPLIT 1415": {
+      "archetype": "usage",
+      "total": 8905.78,
+      "cardholders": 7,
+      "teams": 3,
+      "mom_growth": 0.10393520059520855
+    },
+    "Figma": {
+      "archetype": "seat",
+      "total": 17456.47,
+      "cardholders": 4,
+      "teams": 3,
+      "mom_growth": 0.14894433751893188
+    },
+    "GitHub": {
+      "archetype": "seat",
+      "total": 17920.57,
+      "cardholders": 12,
+      "teams": 3,
+      "mom_growth": -0.004136802640832715
+    },
+    "PERPLEXITY AI": {
+      "archetype": "seat",
+      "total": 6390.09,
+      "cardholders": 19,
+      "teams": 6,
+      "mom_growth": 0.18133913397432533
+    },
+    "ELEVEN LABS": {
+      "archetype": "usage",
+      "total": 6795.94,
+      "cardholders": 20,
+      "teams": 5,
+      "mom_growth": 0.3295585807642196
+    }
+  }
+}
