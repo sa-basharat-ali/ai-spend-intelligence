@@ -116,7 +116,7 @@ structure, which is a bigger model than this deserves.
 
 ## Where this comes from
 
-At Geidea, Saudi Arabia's largest fintech, I built merchant intelligence segmentation
+At Geidea, Saudi Arabia's largest payments processor, I built merchant intelligence segmentation
 across 40,000+ merchants and 400,000+ POS terminals against a million transactions a day,
 plus churn models and real-time anomaly detection. Merchant descriptor resolution at that
 scale is the same problem in the other direction: a messy string, a real entity behind
